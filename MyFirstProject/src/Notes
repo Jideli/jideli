@@ -1,0 +1,25 @@
+SHORTCUTS: 
+type sysout and press ctrl+space
+
+Place the cursor next to an opening or closing brace and punch Ctrl + Shift + P 
+to find the matching brace. If Eclipse can't find one you'll get a "No matching bracket found" message.
+
+Command + 7 --> turn line into comment
+
+
+
+BASICS:
+print line is a built in method > can print line to database, network and other things, videos show how to print on our system
+difference between print and println is println adds a line/break after printing
+
+create other packages next to the default one to group classes. import classes from other packages or import all e.g. package1.*
+
+program structure:
+	class {
+	method header --> Java will first look for main method {
+	method body
+	statements:
+		declare variable type and variable name;
+		assign value to variable name;
+	}
+}
