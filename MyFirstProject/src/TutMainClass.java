@@ -71,7 +71,7 @@ public class TutMainClass {
 		myObject.setTime(13, 27, 6);
 		System.out.println(myObject.toMilitary());
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
@@ -88,7 +88,28 @@ public class TutMainClass {
 		System.out.println(myObject.toString());
 		
 	}
+}*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 41: Building Objects for Constructors
+// uses class Tut40setAndGetMethods
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut40setAndGetMethods myObject = new Tut40setAndGetMethods();
+		Tut40setAndGetMethods myObject2 = new Tut40setAndGetMethods(5);
+		Tut40setAndGetMethods myObject3 = new Tut40setAndGetMethods(5,13);
+		Tut40setAndGetMethods myObject4 = new Tut40setAndGetMethods(5,13,43);
+		
+		System.out.printf("%s\n", myObject.toMilitary()); // return myObject with no arguments
+		System.out.printf("%s\n", myObject2.toMilitary());
+		System.out.printf("%s\n", myObject3.toMilitary());
+		System.out.printf("%s\n", myObject4.toMilitary());
+	}
 }
+
 
 
 

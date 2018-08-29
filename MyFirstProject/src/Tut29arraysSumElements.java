@@ -5,7 +5,7 @@ public class Tut29arraysSumElements {
 		int sum=0;
 				
 		for(int counter=0;counter<bucky.length;counter++){
-			sum+=bucky[counter];
+			sum+=bucky[counter]; // sum = sum + bucky[counter]
 		}
 		System.out.println("The sum of these number is " +sum);
 	}
