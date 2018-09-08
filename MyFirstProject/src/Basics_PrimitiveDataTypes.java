@@ -1,7 +1,4 @@
-public class Tutorial1
-// define a new class/program (blueprint) named Tutorial1
-// public: can be used by any other class
-//classes are blue prints used to design objects that contain attributes (variables) and methods (functions)
+public class Basics_PrimitiveDataTypes
 
 // In classes, methods, and other flow-control structures code is always enclosed in curly braces { }
 // Remember: do not use semicolons after method and class declarations that follow with the body defined using the curly braces.
@@ -87,7 +84,7 @@ public class Tutorial1
 		
 		// casting: convert from one primitive type to another
 		double aDoubleValue = 3.14546466464;
-				int doubleToInt = (int) aDoubleValue;
+				int doubleToInt = (int) aDoubleValue; // outputs 3
 				// or (byte) (short) (long) (double)
 		System.out.println(doubleToInt);
 		

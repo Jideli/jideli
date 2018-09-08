@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 // add comment
-class ExABC {
+class Exercise_returnAlphabetIndex {
 	public static void main (String[] args) {
 		
 		Scanner input = new Scanner (System.in);
