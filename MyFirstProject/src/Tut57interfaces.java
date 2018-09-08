@@ -10,7 +10,10 @@ Interfaces have the following properties:
 - An interface is implicitly abstract. You do not need to use the abstract keyword while declaring an interface.
 - Each method in an interface is also implicitly abstract, so the abstract keyword is not needed.
 - Methods in an interface are implicitly public.
-A class can inherit from just one superclass, but can implement multiple interfaces!*/
+A class can inherit from just one superclass, but can implement multiple interfaces!
+
+When you implement an interface, you need to override all of its methods.*/
+
 public class Tut57interfaces {
 
 }
