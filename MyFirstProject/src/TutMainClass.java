@@ -88,7 +88,7 @@ public class TutMainClass {
 		System.out.println(myObject.toString());
 		
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
@@ -109,6 +109,198 @@ public class TutMainClass {
 		System.out.printf("%s\n", myObject4.toMilitary());
 	}
 }
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 42: toString
+class TutMainClass {
+	public static void main (String[] args) { 
+		Tut42toString myObject = new Tut42toString(4,5,6);
+		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 43: composition
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut42toString myObject = new Tut42toString(4,5,6);
+		Tut43composition compObject = new Tut43composition("Bucky", myObject); // constructor takes 2 parameters, a string and an object
+		
+		System.out.println(compObject);
+	}
+}
+//-------------------------------------------------------------------------------
+
+//Tutorial 44: enumeration
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		// build an enhanced for loop using a made up variable 'people' (what you want to name variable when you loop through them)
+		for (Tut44enumerations people: Tut44enumerations.values()) { // values is called a static method, cannot change this keyword
+			// every time you make a enumeration, Java takes constants and makes an array with keyword .values
+			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
+			
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 45: EnumSet range
+
+import java.util.EnumSet; // allows to use built in method called range
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		for (Tut45enumSetRange people: Tut45enumSetRange.values()) 
+			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
+		
+		// added this
+		System.out.println("\nAnd now for the range of constants!!\n");	
+		
+		for (Tut45enumSetRange people: EnumSet.range(Tut45enumSetRange.kesley, Tut45enumSetRange.candy))
+		// get only from kesley to candy
+		System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
+		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 46: static (using static to count up when calling a constructor
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut46static member1 = new Tut46static("first1","last1");
+		Tut46static member2 = new Tut46static("first2","last2");
+		Tut46static member3 = new Tut46static("first3","last3");
+	
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 47: More on static
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut46static member1 = new Tut46static("first1","last1");
+		Tut46static member2 = new Tut46static("first2","last2");
+		Tut46static member3 = new Tut46static("first3","last3");
+		
+		// System.out.println(); // print an empty line
+		// System.out.println(member1.getFirst()); // specific to member
+		// System.out.println(member1.getLast());
+		// System.out.println(member1.getMembers()); // this will be shared with all the others
+		//
+		// no matter which member above, member name will always be 3 because it's shared
+		
+		System.out.println(Tut47moreOnStatic.getMembers());
+		//  tip: instead of calling a separate object, just put the name of the class then .staticmethod
+		//  --> whenever you have static, you don't need to create object
+		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 48: final
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut48final myObject = new Tut48final(10);
+		
+		for (int i=0; i<5; i++) {
+			myObject.add();
+			System.out.printf("%s", myObject);
+			
+		}
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 49: inheritance
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut49inheritanceChild1 child1Object = new Tut49inheritanceChild1();
+		Tut49inheritanceChild2 child2Object = new Tut49inheritanceChild2();
+		
+		child1Object.eat();
+		child2Object.eat();
+	
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 51GUIwithJFrame
+
+import javax.swing.JFrame; // makes sure we can use windows
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut51GUIwithJFrame bucky = new Tut51GUIwithJFrame();
+		bucky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		bucky.setSize(275,180);
+		bucky.setVisible(true);
+	
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 52 Event Handling, ActionListener
+import javax.swing.JFrame;
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		Tut52eventHandling bucky = new Tut52eventHandling();
+		bucky.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		bucky.setSize(350,100);
+		bucky.setVisible(true);
+	}
+}
+//-------------------------------------------------------------------------------
+
+//Tutorial 55 Polymorphism
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		// example: build polymorphic array -> stores objects of diff classes in the superclass type
+		Tut55polymorphism bucky[] = new Tut55polymorphism[2]; // one reference variable of the superclass, instead of creating object for each
+		bucky[0]=new Tut55subClass1(); // bucky 0 can hold objects of subClass1
+		bucky[1]=new Tut55subClass2();
+		
+		// loop through array and call each method
+		for(int x=0;x<2;++x) {
+			bucky[x].eat();
+		}
+		
+	}
+}*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 56 Polymorphic Arguments
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut56polymorphicArguments bucky = new Tut56polymorphicArguments();
+		Tut55polymorphism fo = new Tut55polymorphism();
+		// can add subclasses too
+		Tut55polymorphism po = new Tut55subClass1();
+		
+			bucky.digest(fo);
+			bucky.digest(po);
+		
+	}
+}
+
 
 
 
