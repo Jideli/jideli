@@ -1,4 +1,4 @@
-public class Basics_PrimitiveDataTypes
+public class Basics1_PrimitiveDataTypes
 
 // In classes, methods, and other flow-control structures code is always enclosed in curly braces { }
 // Remember: do not use semicolons after method and class declarations that follow with the body defined using the curly braces.

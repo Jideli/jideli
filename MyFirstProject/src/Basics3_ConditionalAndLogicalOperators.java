@@ -1,4 +1,4 @@
-public class Tutorial3 {
+public class Basics3_ConditionalAndLogicalOperators {
 	
 	public static void main(String[] args)
 	{

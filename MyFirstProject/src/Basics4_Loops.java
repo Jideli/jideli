@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tutorial4 {
+public class Basics4_Loops {
 	
 	static Scanner userInput = new Scanner(System.in);
 	

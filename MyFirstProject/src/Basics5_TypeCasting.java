@@ -16,6 +16,6 @@ Animal a = new Animal();
 This will try to cast the variable a to the Cat type and call its makeSound() method*/
 
 
-public class Basics_TypeCasting {
+public class Basics5_TypeCasting {
 
 }

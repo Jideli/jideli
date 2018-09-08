@@ -3,7 +3,7 @@
 import java.util.Scanner; // use import to import external class
 // import java.util.* // this is to install entire library 
 
-public class Tutorial2
+public class Basics2_ConditionalStatements
 {
 	
 	static Scanner userInput = new Scanner (System.in); 

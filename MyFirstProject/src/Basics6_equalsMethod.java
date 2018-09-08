@@ -67,6 +67,6 @@ You can use the same menu to generate other useful methods, such as getters and 
 
 
 
-public class Basics_equalsMethod {
+public class Basics6_equalsMethod {
 
 }
