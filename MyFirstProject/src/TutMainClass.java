@@ -281,7 +281,7 @@ public class TutMainClass {
 		}
 		
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
@@ -300,6 +300,23 @@ public class TutMainClass {
 		
 	}
 }
+
+*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 59 Class to Hold Objects
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut59child1List DLO = new Tut59child1List();
+		Tut59child1 d = new Tut59child1();
+		DLO.add(d);
+		
+	}
+}
+
 
 
 
