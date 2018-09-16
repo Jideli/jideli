@@ -12,6 +12,19 @@ import javax.swing.JOptionPane;
 
 public class Tut62JButton extends JFrame {
 
+	private JButton reg; // regular
+	private JButton custom; // button with own image
 	
+	// build constructor
+	public Tut62JButton() {
+		super("The title"); // how to call methods from the superclass JFrame
+		setLayout(new FlowLayout()); // gives us default layout
+		
+		reg = new JButton("reg Button");
+		add(reg);
+		
+		
+		
+	}
 	
 }
