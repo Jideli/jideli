@@ -23,7 +23,7 @@ public class Tut62JButton extends JFrame {
 		reg = new JButton("reg Button");
 		add(reg);
 		
-		
+		// LEFT OFF HERE
 		
 	}
 	
