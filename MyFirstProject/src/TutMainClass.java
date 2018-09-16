@@ -281,7 +281,7 @@ public class TutMainClass {
 		}
 		
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
@@ -300,6 +300,74 @@ public class TutMainClass {
 		
 	}
 }
+
+
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 59 Class to Hold Objects
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut59child1List DLO = new Tut59child1List();
+		Tut59child1 d = new Tut59child1();
+		DLO.add(d);
+		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 60 Array Holding Many Objects
+// only have to create one array for both child classes, better than array in Tut59
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut60childList ALO = new Tut60childList();
+		Tut60child1 d = new Tut60child1();
+		Tut60child2 f = new Tut60child2();
+		ALO.add(d);
+		ALO.add(f);
+		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 61 Simple Polymorphic Programm
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut61animal[] thelist = new Tut61animal[2];
+		Tut61dog d = new Tut61dog();
+		Tut61fish f = new Tut61fish();
+		
+		thelist[0]=d;
+		thelist[1]=f;
+		
+		for(Tut61animal x: thelist) {
+			x.noise();
+			
+		}
+		
+	}
+}*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		
+		
+	}
+}
+
 
 
 
