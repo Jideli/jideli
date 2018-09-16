@@ -1,4 +1,4 @@
-// in this class, build an array to hold objects from Tut59child1
+// in this class, build an array to hold objects ONLY from Tut59child1
 
 public class Tut59child1List {
 	private Tut59child1[] thelist = new Tut59child1[5];
