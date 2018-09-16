@@ -24,6 +24,7 @@ public class Tut62JButton extends JFrame {
 		add(reg);
 		
 		// LEFT OFF HERE
+		// continue here
 		
 	}
 	
