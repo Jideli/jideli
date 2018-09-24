@@ -13,19 +13,19 @@ import javax.swing.JOptionPane;
 
 public class Tut62JButton extends JFrame {
 
+	// create 2 variables to store buttons
 	private JButton reg; // regular
 	private JButton custom; // button with own image
 	
 	// build constructor
 	public Tut62JButton() {
-		super("The title"); // how to call methods from the superclass JFrame
-		setLayout(new FlowLayout()); // gives us default layout
+		super("The title"); // how to call methods from the superclass JFrame, give window a title
+		setLayout(new FlowLayout()); // gives us default window layout
 		
-		reg = new JButton("reg Button");
+		reg = new JButton("reg Button"); // create a regular button and add it
 		add(reg);
 		
 		// make sure to save images as PNG
-		
 		Icon b = new ImageIcon(getClass().getResource("customButton1.png"));
 		Icon x = new ImageIcon(getClass().getResource("customButton2.png")); // rollover image
 		custom = new JButton("Custom", b); // second parameter is optional

@@ -354,16 +354,38 @@ public class TutMainClass {
 		}
 		
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
-//Tutorial 62/63 create JButton c
+//Tutorial 62/63 create JButton
+
+import javax.swing.JFrame;
 
 public class TutMainClass {
 	public static void main (String[] args) { 
 		
+		Tut62JButton go = new Tut62JButton();
+		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		go.setSize(300,200);
+		go.setVisible(true);
 		
+	}
+}*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 64/65 Check Box Programm
+
+import javax.swing.JFrame;
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut64JCheckBox go = new Tut64JCheckBox();
+		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		go.setSize(300,200);
+		go.setVisible(true);
 		
 	}
 }
