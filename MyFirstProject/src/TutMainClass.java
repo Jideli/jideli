@@ -371,11 +371,11 @@ public class TutMainClass {
 		go.setVisible(true);
 		
 	}
-}*/
+}
 
 //-------------------------------------------------------------------------------
 
-//Tutorial 64/65 Check Box Programm
+//Tutorial 64/65 Check Box Program
 
 import javax.swing.JFrame;
 
@@ -387,6 +387,59 @@ public class TutMainClass {
 		go.setSize(300,200);
 		go.setVisible(true);
 		
+	}
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 66/67 JRadio Button program
+
+import javax.swing.JFrame;
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut66JRadioButton go = new Tut66JRadioButton();
+		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		go.setSize(300,200);
+		go.setVisible(true);
+	}
+}
+
+}
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 68/69 create drop down list using JComboBox
+
+import javax.swing.JFrame;
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut68JComboBox go = new Tut68JComboBox();
+		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		go.setSize(300,200);
+		go.setVisible(true);
+	}
+
+}
+
+*/
+
+//-------------------------------------------------------------------------------
+
+//Tutorial 70/71 create list using JList
+
+import javax.swing.JFrame;
+
+public class TutMainClass {
+	public static void main (String[] args) { 
+		
+		Tut70_JList go = new Tut70_JList();
+		go.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+		go.setSize(300,200);
+		go.setVisible(true);
 	}
 }
 
