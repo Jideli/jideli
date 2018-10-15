@@ -1,4 +1,4 @@
-// import an external class
+
 
 import java.util.Scanner; // use import to import external class
 // import java.util.* // this is to install entire library 

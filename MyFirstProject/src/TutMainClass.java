@@ -1,7 +1,7 @@
 /* Tutorial 14
 import java.util.Scanner;
 
-public class utMainClass {
+public class TutMainClass {
 	public static void main (String[] args) { // main program
 		
 		Tut14multipleClasses myObject = new Tut14multipleClasses (); // create an object and use class Tut14multipleClasses

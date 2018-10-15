@@ -1,3 +1,4 @@
+
 public class Basics1_PrimitiveDataTypes
 
 // In classes, methods, and other flow-control structures code is always enclosed in curly braces { }
