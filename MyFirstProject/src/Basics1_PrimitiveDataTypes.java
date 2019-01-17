@@ -1,15 +1,17 @@
 
 public class Basics1_PrimitiveDataTypes
 
-// In classes, methods, and other flow-control structures code is always enclosed in curly braces { }
-// Remember: do not use semicolons after method and class declarations that follow with the body defined using the curly braces.
+// Classes, methods, and other flow-control structures, code is always enclosed in curly braces { }
+// Remember: do not use semicolons after method and class declarations that follow with the body 
+// defined using the curly braces.
 
 {
-	static String randomString = "String to print"; // class variable
+	static String randomString = "String to print"; 
+	// class variable, String: storage area, 'randomString': variable name
 
-	// static: only a class can call for this function to execute, method can be run without creating an instance of the class containing the main method
+	// static: only a class can call for this function to execute, method can be run without creating 
+	// an instance of the class containing the main method
 	// class variables must start with static if you want to access them with any other methods in the class
-	// String: storage area, 'randomString': variable name
 			
 	static final double PINUM = 3.141529; // double: decimal places
 	// constant variables are defined with final
@@ -17,7 +19,8 @@ public class Basics1_PrimitiveDataTypes
 	public static void main (String[] args) // we need string objects called args
 	{
 	// void: doesn't return any values after done executing
-	// main: required in every Java program, this function/method is always executed first, The method's parameters are declared inside the parentheses that follow the name of the method
+	// main: required in every Java program, this function/method is always executed first
+	// The method's parameters are declared inside the parentheses that follow the name of the method
 	// String args: every main function must accept an array of string objects
 	
 		

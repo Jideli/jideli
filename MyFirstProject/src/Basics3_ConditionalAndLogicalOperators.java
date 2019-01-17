@@ -106,7 +106,6 @@ public class Basics3_ConditionalAndLogicalOperators {
 				}
 			}
 			
-			
 		}
 	
 	}

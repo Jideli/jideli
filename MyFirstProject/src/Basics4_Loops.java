@@ -5,8 +5,7 @@ public class Basics4_Loops {
 	
 	static Scanner userInput = new Scanner(System.in);
 	
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 		
 		int i = 1;
 // WHILE AND IF
@@ -37,15 +36,6 @@ public class Basics4_Loops {
 		double myPi = 4.0;
 		double j = 3.0;
 		
-// how to calculate the number Pi: 4 - 4/3 + 4/5 -4/7
-		
-		while (j > 11)
-		{
-			myPi = myPi - (4/j) + (4/(j+2));
-			j += 4;
-			System.out.println(myPi);
-		}
-		System.out.println("Value of PI: " + Math.PI);
 		
 // execute while loop until user decides to stop
 // --> need to insert scanner on top
@@ -63,7 +53,7 @@ public class Basics4_Loops {
 			
 		}
 		
-// DO WHILE, instructor never uses it, used when you want code to be run at least 1x
+// DO WHILE: used when you want code to be run at least 1x (not used very commonly)
 		
 		int k = 1;
 		
@@ -72,6 +62,7 @@ public class Basics4_Loops {
 			System.out.println(k);
 			k++;
 		} while (k < 10); // will always print out what k has been initially set as, even if k greater than 10
+		
 		
 // FOR (declare iterator; conditional statement; change iterator)
 		
