@@ -1,8 +1,7 @@
-// instance variables with final
 // final means you can't modify it, can only set it equal to something once
 
 public class Tut48final {
-	private int sum; // hold the sum of numbers that we will add up
+	private int sum; 
 	private final int NUMBER; // put it in caps because they're constant
 	
 	// need to initalize it in the constructor or before

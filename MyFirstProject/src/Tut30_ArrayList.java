@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Other_ArrayList {
+public class Tut30_ArrayList {
 
 	public static void main(String[] args) {
 		

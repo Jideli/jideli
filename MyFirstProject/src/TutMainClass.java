@@ -1,4 +1,11 @@
-/* Tutorial 14
+/* 
+Missing content:
+type casting
+equals method
+threads
+
+
+Tutorial 14
 import java.util.Scanner;
 
 public class TutMainClass {
